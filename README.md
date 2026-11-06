@@ -1,6 +1,6 @@
 # EventPass
 
-[![CI](https://github.com/zakaech/EventPass/actions/workflows/ci.yml/badge.svg)](https://github.com/zakaech/EventPass/actions/workflows/ci.yml)
+[![CI](https://github.com/zakaech/eventpass/actions/workflows/ci.yml/badge.svg)](https://github.com/zakaech/eventpass/actions/workflows/ci.yml)
 
 **Plateforme de billetterie d'événements** : les spectateurs réservent leurs places et reçoivent
 des billets à QR code signé, les organisateurs publient leurs événements, suivent leurs ventes et
@@ -56,8 +56,8 @@ Prérequis : **Docker** (Docker Desktop, ou Docker Engine avec Compose). Rien d'
 ni PostgreSQL à installer.
 
 ```bash
-git clone https://github.com/zakaech/EventPass.git
-cd EventPass
+git clone https://github.com/zakaech/eventpass.git
+cd eventpass
 docker compose up --build
 ```
 
